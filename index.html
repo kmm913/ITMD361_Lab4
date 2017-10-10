@@ -26,15 +26,13 @@
           <label for="email">Email Address: </label>
           <input type="text" id="email" name="email_field">
         </p>
-      <section id="radio_buttons">
         <p>
-          <label for="radio_buttons">Gender: </label>         
+          <label>Gender: </label>         
           <input type ="radio" id="male" name="gender_field" value="Male" checked="checked">
           <label for="male">Male</label>
           <input type="radio" id="female" name="gender_field" value="Female">
           <label for="female">Female</label>
         </p>
-      </section>
       <p>
         <label for="age"> Age: </label>
           <select id="age" name="age_field">
@@ -50,8 +48,7 @@
 
     <fieldset>      
       <legend><strong>My Availability</strong></legend>
-        <section id="boxes">
-          <label for="boxes">Days Available:</label>
+          <label>Days Available:</label>
             <p>
               <input type="checkbox" id="box1" name="available_field[]" value="Sunday">
               <label for="box1">Sunday</label>
@@ -80,14 +77,13 @@
               <input type="checkbox" id="box7" name="available_field[]" value="Saturday">
               <label for="box1">Saturday</label>
             </p>          
-        </section>
         <label for="comments">Any Comments?:</label>
         <p>
           <textarea id="comments" name="comments_field" rows="10" cols="50" placeholder="Write your comments here."></textarea>
         </p>
-        <section>
+        <p>
           <input type="hidden" name="hidden_field" value="kmahoney">
-        </section>
+        </p>
         <p>
           <input type="submit" value="Send Me">
         </p>
